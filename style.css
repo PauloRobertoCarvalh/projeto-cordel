@@ -64,32 +64,24 @@ section{
     text-shadow: 1px 1px rgba(0, 0, 0, 0.362);
 }
 
+section.parallax{
+    background-color: rgb(51, 51, 51);
+    color: white; 
+}
+
 .parte-branca{
     background-color: white;
     color:black ;
    
 }
 
-#parallax-1{
-    background-color: rgb(51, 51, 51);
-    color: white;  
+section#img01{ 
     background-image: url(imagens/background001.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.474);
+   
 }
 
-#parallax-2{
-    background-color: rgb(51, 51, 51);
-    color: white;  
-    background-image: url(imagens/background002.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.474);
+#img02{
+
 }
 
 article > p{
