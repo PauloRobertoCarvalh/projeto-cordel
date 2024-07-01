@@ -61,12 +61,14 @@ section{
     padding-left: 30px;
     font-family: var(--fontparagrafo);
     font-size: 3.5vw;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.362);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.362);
 }
 
 section.parallax{
     background-color: rgb(51, 51, 51);
-    color: white; 
+    color: white;
+    box-shadow: inset  6px 6px 13px 0px rgba(0, 0, 0, 0.334); 
+    background-size: cover;
 }
 
 .parte-branca{
@@ -77,15 +79,18 @@ section.parallax{
 
 section#img01{ 
     background-image: url(imagens/background001.jpg);
-   
+    background-position: right center;
+    background-attachment: fixed;
 }
 
-#img02{
-
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-attachment: fixed;
 }
 
 article > p{
-    background-color: rgba(0, 0, 0, 0.482);
+    background-color: rgba(0, 0, 0, 0.488);
     display: inline-block;
     padding:2px
 }
@@ -96,11 +101,12 @@ footer{
 
 footer p{
     font-family: var(--fontpadrao);
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-align: center;
     color: white;
     padding: 5px;
 }
+
 footer a{
     text-decoration: none;
     padding: 1px;
